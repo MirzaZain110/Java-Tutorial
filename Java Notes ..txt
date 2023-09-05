@@ -1,0 +1,109 @@
+Java Notes . 
+- Java very popular language 
+- use to develop mobile app , desktop app and web app .
+- Owned by Oracle 
+- community of 10 billiion devvelopers 
+- Java is case-sensitive: "MyClass" and "myclass" has different
+  meaning.
+- Every program must contain main method .
+- we can perform the calculation in println like ( 3 + 3 ) 
+  Result should be equal to 6 .
+- By default Ex [ fullname = fname + lname; ]
+ 		java data types  
+- java data types are divided into two groups 
+1. Primetive (int , char ,long etc)
+2. Non-Primetive (class ,array string)
+
+arrays :
+	- arrays in java dynamically allocated . 
+	- Store in continues memory .
+	- we can find the size using object property by (lenght) 	function.
+
+continue :
+	this keyword use to skip the particular condition 
+break : 
+	break use to end that condition of till end . 
+
+	- we have to close scanner object else if we 
+	  use the array memory will leak error comes.
+
+Method Overloading :
+	method over loading can be done by using change data types
+	Ex :
+		myMethod(int x,int y);
+		myMethod(double x, double y);
+
+------------------------------------------------------------------
+
+			JAVA is OOP .
+
+	- What is OOP ?
+	- Procedural programming is about writing procedures or
+	  method that perform operatiom on the data , while object 
+	  oriented programming is about creating objects that 
+	  contain both data and method .
+
+	- in c and c++ we the keyword const in java we have the 	  same functionality keyword final . Example in folder .
+
+	------------------------------------------------------
+You will often see Java programs that have either static or public attributes and methods.
+
+In the example above, we created a static method, which means that it can be accessed without creating an object of the class, unlike public, which can only be accessed by objects:
+		 
+-------------------------------------------------------------------
+
+Encapsulation : 
+
+- to achieve this we have to use the arributes and class variale as
+  private variable by which we can safe the data form other .
+- use the getter and setter to acesses the variables .
+
+Inheritance : 
+- in the java we can use this concept by using the keyword extends .
+- We can group inheritance concept into another class :
+1. Subclass(child)
+2. Superclass (Parent)
+
+Polymorphism :
+- Poly means Many , morphism mean forms 
+  (Ex : Person can be :  father,son , employee , student etc)
+Inner Class : 
+- In java we have another concept of inner class in which can create new class inside of other class . 
+Abstraction : 
+- To hide certain details and Show only needed information
+- Ther are two things 
+1. Abstract class
+2. Abstract method
+- in java we can apply by interface or abstract classes example are
+  in folder .
+ 
+- We can use multiple classes of interfaces for single class.
+  (e.g : class Demo implement firstclass,secondclass )
+
+Enum classes :   
+
+- Special classes which represents a group of constant variable .
+  (Ex : enum myvariable {} )	
+
+Java ArrayList :
+- Predefine class in java . form lib java.util .
+- Resizable array .
+- Different b/w array and ArrayList is the resizability of
+  ArrayList. 
+- The size of an array cannot be modified 
+  (if you want to add or remove elements to/from an array, you 
+  have to create a new one). While elements can be added and
+  removed from an ArrayList whenever you want. The syntax is also
+  slightly different.
+
+-------------------------------------------------------------------
+       
+                             Java File Handing 
+                            ___________________
+
+- Java has several method of create , reading , updating and 
+  deleteing an object. 
+- We have File class in java.io package or library .
+- Ex: in folder  
+
+
